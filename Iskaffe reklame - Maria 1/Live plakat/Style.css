@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Oxanium', cursive;
+}
+
+.video-bg{
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.wrapper{
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.titel {
+    font-size: 10rem;
+    color: #A65644;
+    margin-top: 20rem;
+    margin-bottom: 5rem;
+  
+}
+
+.info {
+    font-size: 5rem;
+    color: #86A69D;
+    margin-bottom: 20rem;
+}
+
+.beskrivelse {
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+
+.link {
+    font-size: 5rem;
+    color:#A65644;
+    text-decoration: none;
+    background-color: #86a69d;
+    /* border-radius: 5%; */
+    padding: 5rem;
+    border-radius: 5%;
+    bottom: 0;
+    
+}
+
+.link:hover {
+    background-color:#A65644;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.credits {
+    font-size: 2rem;
+    color: white;
+}
