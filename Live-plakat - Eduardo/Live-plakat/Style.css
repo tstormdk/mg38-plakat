@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.video-bg{
+    position: fixed;
+    min-width: 70vw;
+    top: 0;
+    display: flex;
+    align-self: center;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+    background-color: black;
+}
+.wrapper{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+}
+.titel{
+font-size: 10rem;
+color: rgb(255, 11, 182);
+font-family: 'Orbitron', sans-serif;
+position: fixed;
+top: 1%;
+}
+.info{
+font-size: 5rem;
+color: rgb(255, 11, 182);
+position: fixed;
+bottom: 30%;
+font-family: 'Orbitron', sans-serif;
+}
+.billeder{
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.beskrivelse{
+font-size: 2rem;
+color: white;
+font-family: 'Sulphur Point', sans-serif;
+}
+.link{
+font-size: 2rem;
+color: white;
+text-decoration: none;
+font-family: 'Sulphur Point', sans-serif;
+background-color: blue;
+padding: 3rem;
+border-radius: 50%;
+}
+.link:hover{
+    background-color: tomato;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    padding: 3rem;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
