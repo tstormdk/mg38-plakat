@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2rem;
+}
+a{
+    font-size: 5rem;
+}
