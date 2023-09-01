@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'benderblack','benderregular','benderlight';
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.video-bg{
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+} 
+
+.wrapper{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+}
+
+.titel{
+    font-size: 10rem;
+    color: white;
+    margin-bottom: 40rem;
+}
+
+.info{
+    font-size: 5rem;
+    color: orange;
+
+}
+    r
+.beskrivelse{
+    font-size: 2rem;
+    color: white;
+}
+
+
+.link{
+    font-size: 5rem;
+    color: black;
+    background-color: orange;
+    border-radius: 15%;
+    padding: 1rem;
+    text-align: center;
+    margin: 10rem;
+    border-style: solid;
+    border-width: 1rem;
+    text-align: center;
+}
+
+
+
+.header{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+
+}
+
+.footer{
+    position: fixed;
+    width: 100vw;
+    bottom: 30vh;
+}
+
+.img1{
+    position: absolute;
+    width: 100vw;
+}
+
+.img2{
+    position: absolute;
+    width: 100vw;
+}
+
+.img3{
+    position: absolute;
+    width: 100vw;
+}

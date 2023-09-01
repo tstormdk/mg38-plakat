@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="12.5">
+    <title>Escape from Tarkov: Arena</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="Fonts/stylesheet.css" class="Fonts">
+    <link rel="stylesheet" href="Fonts/specimen_files/grid_12-825-55-15.css">
+    <link rel="stylesheet" href="Fonts/specimen_files/specimen_stylesheet.css">
+</head>
+
+
+<body>
+    <video class="video-bg" autoplay loop muted>
+        <source src="video/Final TARKOV ARENA.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>    
+<section class="wrapper">
+   <header class="header">
+         <img src="https://www.escapefromtarkov.com/themes/eft/images/logo.png" alt="" class="img1">
+    </header>
+
+
+    <!-- <h2 class="info">info</h2> -->    
+    <!-- <p class="beskrivelse">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum impedit, optio at reiciendis eius cumque! Cumque dolorem veritatis provident voluptatem! Suscipit magnam velit vitae eum vel doloremque! Maiores, corporis et. 
+    </p> -->
+
+<footer class="footer">
+    <!-- <a href="#" class="link">PRE-ORDER NOW</a> -->
+    <img src="https://www.escapefromtarkov.com/uploads/content/banners/46c7d98360bd8ccb6f7e0e675b672565.png" alt="" class="img2 animate__animated animate__fadeIn animate__slower">
+<!-- animate__animated animate__delay-7s animate animate__fadeOut -->
+
+</footer>
+</section>
+
+<script>
+const element = document.querySelector('.img1');
+element.classList.add('animate__animated', 'animate__fadeIn', 'animate__slower',);
+
+element.addEventListener('animationend', () => {
+element.classList.add ('animate__animated','animate__fadeOut', 'animate__delay-4s','animate__faster')
+
+});
+</script>
+
+
+</body>
+</html>
