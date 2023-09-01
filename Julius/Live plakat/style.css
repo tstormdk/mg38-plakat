@@ -1,0 +1,85 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(font/test.otf);
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 10px;
+/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+font-family: 'myFirstFont', sans-serif;
+}
+
+.video-bg{
+position: fixed;
+min-height: 100vw;
+min-height: 100vw;
+}   
+
+.wrapper{
+position: absolute; 
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+width: 100vw;
+height: 100vw;
+
+}
+
+.titel{
+  font-size:80rem;  
+  color: rgb(124, 115, 115);
+  margin: 9rem;
+}
+
+
+.info{
+font-size: 5rem;
+color: white;
+text-align: center;
+margin-top: 20rem;
+
+}
+
+.beskrivelse{
+font-size: 5rem;
+color: rgb(189, 169, 58)
+
+}
+
+.link{
+  font-size: 2rem;
+  color: rgb(190, 204, 216);
+text-decoration: none;
+
+border-radius: 50%;
+}
+
+.link:hover {
+  background-color: tomato;
+  
+}
+
+.footer{
+  position:absolute;
+  bottom: 0;
+  display: flex; 
+  justify-content: space-around;
+  
+
+}
+
+/* . animate__rotateOutDownLeft{
+-o-animation-delay: 4;
+
+} */
+
+.logo{
+width: 50%;
+
+margin-bottom: 65px;
+
+}
