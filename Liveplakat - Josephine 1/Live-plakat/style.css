@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.video-bg{
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.wrapper{
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.titel{
+
+    font-size: 15rem;
+    color: #FC5848;
+    margin-top: 10rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.info{
+
+    font-size: 8rem;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+}          
+
+.beskrivelse{
+
+    font-size: 5rem;
+    color: white;
+}
+
+.link{
+    font-size: 3rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    background-color: #FC5848;
+    padding: 5rem;
+    border-radius: 50%;
+}
+
+.link:hover{
+    background-color: #2BB1EB;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    color: white
+}
+
+.animate__animated.animate__heartBeat {
+    --animate-duration: 5s;
+  }
