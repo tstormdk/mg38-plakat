@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.video-bg{
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.wrapper{
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.titel{
+
+    font-size: 10rem;
+    color: white;
+}
+
+.info{
+    font-size: 5rem;
+    color: orange;
+
+}
+
+.beskrivelse{
+    font-size: 2rem;
+color: white;
+font-family: 'roboto', sans-serif; 
+
+}
+
+.link{
+    font-size: 2rem;
+color: white;
+font-family: 'roboto', sans-serif; 
+text-decoration: none;
+background-color: rgb(209, 188, 133);
+padding: 3rem;
+border-radius: 50%;
+}
+
+.link:hover{
+    background-color: rgb(158, 142, 108);
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    
+}
