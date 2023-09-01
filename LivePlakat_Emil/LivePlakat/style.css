@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.video-bg{
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.wrapper{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly;  */
+    width: 100vw;
+    height: 100vh; 
+    margin-top: 5rem;
+}
+
+.titel{
+    font-family: 'Lobster', cursive;
+    font-size: 12rem; color: white;
+    margin-top: 5rem;
+}
+
+
+.info {
+    font-family: 'Turret Road', cursive;
+    font-size: 7rem; color:white; align-content: center;
+    margin-top: 35rem;
+}
+
+.beskrivelse{
+    font-family: 'Turret Road', cursive;
+    font-size: 3rem; color: white;
+    margin-top: 40%;
+}
+
+.link{
+    font-family: 'Turret Road', cursive;
+    font-size: 2rem; color: white;
+    text-decoration: none;
+    background-color:grey;
+    padding: 2rem;
+    border-radius: 25%;
+    margin-top: 5rem;
+}
+
+.link:hover{
+    background-color: goldenrod ;
+    padding: 3rem;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    color: grey;
+    padding-bottom: 1rem;
+}
